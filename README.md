@@ -36,22 +36,22 @@ The purpose of this assignment is to demonstrate a simple linear regression anal
 - R² score (Python): 0.7851515863136573
 - Summary output (R):
 - Call:
-lm(formula = Salary ~ YearsExperience, data = dataset)
+- lm(formula = Salary ~ YearsExperience, data = dataset)
 
-Residuals:
-    Min      1Q  Median      3Q     Max 
--7540.2 -2564.9  -199.1  2814.8  6230.6 
+- Residuals:
+-    Min      1Q  Median      3Q     Max 
+- -7540.2 -2564.9  -199.1  2814.8  6230.6 
 
-Coefficients:
-                Estimate Std. Error t value Pr(>|t|)    
-(Intercept)        29204       4092   7.136 9.84e-05 ***
-YearsExperience     8285       1532   5.407 0.000641 ***
----
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+- Coefficients:
+-                Estimate Std. Error t value Pr(>|t|)    
+- (Intercept)        29204       4092   7.136 9.84e-05 ***
+- YearsExperience     8285       1532   5.407 0.000641 ***
+- ---
+- Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
-Residual standard error: 4680 on 8 degrees of freedom
-Multiple R-squared:  0.7852,	Adjusted R-squared:  0.7583 
-F-statistic: 29.24 on 1 and 8 DF,  p-value: 0.0006407
+- Residual standard error: 4680 on 8 degrees of freedom
+- Multiple R-squared:  0.7852,	Adjusted R-squared:  0.7583 
+- F-statistic: 29.24 on 1 and 8 DF,  p-value: 0.0006407
 
 
 ---
