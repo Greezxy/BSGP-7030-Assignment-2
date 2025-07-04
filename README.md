@@ -1,57 +1,18 @@
-# BSGP 7030 – Assignment 2: Linear Regression in Python and R
+# Assignment 3: Annotated Linear Regression and Git/GitHub Workflow
 
-## Purpose of the Assignment
+## Overview
+This repository contains the completed work for Assignment 3, which involves performing linear regression in both Python and R, visualizing results with annotated plots, and practicing version control using Git and GitHub.
 
-The purpose of this assignment is to demonstrate a simple linear regression analysis using both Python and R to model the relationship between "Salary" and "Years of Experience". The task involves creating visualizations, fitting regression models, and evaluating the results using two different programming environments.
+## Contents
+- `linear_model_notebook_python.ipynb`: Jupyter Notebook with linear regression analysis, model interpretation, and annotated plot.
+- `linear_model_notebook_r.ipynb`: R Jupyter Notebook with similar analysis and explanations.
+- `linear_model_notebook_python.py`: Python script that outputs regression metrics and saves the annotated plot as `regression_plot_python.png`.
+- `linear_model_notebook_r.r`: R script that performs the same tasks and saves the plot as `regression_plot_r.png`.
+- `regression_plot_python.png`: Output plot from Python script.
+- `regression_plot_r.png`: Output plot from R script.
+- `regression_data.csv`: Dataset file.
+- `README.md`: This file describes the repository structure and contents.
 
-
-## Tools and Libraries Used
-
-### Python (via Jupyter Notebook)
-- `pandas` – for data manipulation
-- `matplotlib` – for visualization
-- `scikit-learn` – for performing linear regression
-
-### R (via RKernel in Jupyter)
-- `base R` – for reading data and plotting
-- `ggplot2` – for data visualization
-
-
-## Files Included
-- `environment_assignment2.yml` – the customized working environment for this assignment
-- `regression_data.csv` – the dataset used for both Python and R analyses
-- `linear_regression_python.ipynb` – Jupyter Notebook using Python
-- `linear_regression_python.html` – HTML export of the Python notebook
-- `linear_regression_python.py` - Python scripts
-- `linear_regression_python_output.png` - Visualization of model fit
-- `linear_regression_r.ipynb` – Jupyter Notebook using R
-- `linear_regression_r.html` – HTML export of the R notebook
-- `linear_regression_r.r` – R scripts
-- `linear_regression_r_output.png` - Visualization of model fit
-- `Rplots.pdf` - Combined visualization of model images in the R environment
-
-
-## Results 
-- The regression line shows a clear positive correlation between years of experience and salary.
-- R² score (Python): 0.7851515863136573
-- Summary output (R):
-- Call:
-- lm(formula = Salary ~ YearsExperience, data = dataset)
-
-- Residuals:
--    Min      1Q  Median      3Q     Max 
-- -7540.2 -2564.9  -199.1  2814.8  6230.6 
-
-- Coefficients:
--                Estimate Std. Error t value Pr(>|t|)    
-- (Intercept)        29204       4092   7.136 9.84e-05 ***
-- YearsExperience     8285       1532   5.407 0.000641 ***
-- ---
-- Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-
-- Residual standard error: 4680 on 8 degrees of freedom
-- Multiple R-squared:  0.7852,	Adjusted R-squared:  0.7583 
-- F-statistic: 29.24 on 1 and 8 DF,  p-value: 0.0006407
-
-
----
+## GitHub Workflow
+- Work completed on the `assignment3` branch and merged into `main`.
+- Final submission tagged as `assignment3-final`.
